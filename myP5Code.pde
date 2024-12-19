@@ -5,7 +5,8 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-var sunSize = 30; 
+var sunSize = 100;
+
 
 
 //🟢Draw Procedure - Runs on Repeat
@@ -14,6 +15,9 @@ void draw(){
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   
   noStroke();
+  
+
+  
 
   // the beautiful blue sky
   background(82, 222, 240);
@@ -30,6 +34,7 @@ void draw(){
   fill(200,0,0)
   ellipse(10, 350, 10, 10)
 
+sunSize=sunSize+.2
 }
 
 
